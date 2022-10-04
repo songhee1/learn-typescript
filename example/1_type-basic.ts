@@ -1,12 +1,14 @@
 // 문자열
-const str: string = 'hello';
+const str = 'hello';
 
 // 숫자
-const num: number = 10;
+const num = 10;
 
 // 배열
 const arr: Array<string> = [];
 arr.push('hi');
+
+const a=10
 
 // 배열 - 리터럴 적용
 const items: string[] = [];
@@ -24,4 +26,4 @@ const person: { age: number; name: string } = { age: 100, name: 'Capt' };
 person.age = 101;
 
 // 진위값
-let isLogin: boolean = false;
+const isLogin = false;
